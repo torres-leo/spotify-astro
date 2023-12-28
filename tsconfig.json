@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": "/home/ltorres24/practice/astro/spotify-clone",
+		"paths": {
+			"@/*": ["src/*"],
+			"@components/*": ["src/components/*"],
+			"@layouts/*": ["src/layouts/*"],
+			"@pages/*": ["src/pages/*"],
+			"@icons/*": ["src/icons/*"],
+			"@lib/*": ["src/lib/*"],
+			"@store/*": ["src/store/*"]
+		},
+		"jsx": "react-jsx",
+		"jsxImportSource": "react"
+	},
+	"extends": "astro/tsconfigs/strict"
+}
